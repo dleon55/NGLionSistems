@@ -1,4 +1,87 @@
+/* Colores */
+:root {
+  --dorado: #e6c614f3;
+  --azul-oscuro: #063c6ee5;
+  --azul-claro: #e9f5fe;
+  --blanco: #ffffff;
+  --gris: #cccccc;
+  --negro: #000000;
+}
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100% !important;
+
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--azul-claro) !important;
+  color: var(--negro) !important;
+  margin: 0 !important;
+  padding: 0 !important; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--azul-oscuro) !important;
+}
+
+a {
+  color: var(--dorado) !important;
+  text-decoration: none !important;
+  transition: color 0.3s !important;
+}
+
+a:hover {
+  color: var(--azul-oscuro) !important;
+}
+
+/* Encabezado y Navegación */
+header {
+  background-color: var(--azul-oscuro) !important;
+  padding: 1rem 0 !important;
+  color: var(--blanco) !important;
+}
+
+nav ul {
+  list-style-type: none !important;
+  padding: 0 !important;
+}
+
+nav li {
+  display: inline !important;
+  margin-right: 20px !important;
+}
+
+/* Botones */
+button,
+.btn {
+  background-color: var(--dorado) !important;
+  color: var(--azul-oscuro) !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s !important;
+}
+
+button:hover,
+.btn:hover {
+  background-color: var(--azul-oscuro) !important; 
+  color: var(--blanco) !important;
+}
+
+/* Secciones */
+section {
+  padding: 2rem 0 !important; 
+}
+
+/* Pie de Página */
+footer {
+  background-color: var(--azul-oscuro) !important;
+  color: var(--blanco) !important;
+//   padding: 2rem 0 !important;
+}
+
+/* Otros estilos específicos según las necesidades de tu sitio pueden ser añadidos posteriormente */

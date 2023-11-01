@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #283747; /* Color de fondo azul espacial */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 45px; /* Ajusta el tamaño según tu logo */
+  margin-right: 15px;
+}
+
+nav ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important; 
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none !important;
+  color: #fff !important; /* Color blanco para los enlaces */
+  transition: color 0.3s ease !important;
+}
+
+nav a:hover {
+  color: #e6c614f3; /* Color dorado al pasar el cursor */
+}
